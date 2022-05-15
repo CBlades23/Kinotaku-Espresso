@@ -288,6 +288,11 @@ img {
     margin-bottom: 5rem;
 }
 
+.entrada__imagen {
+    width: 700px;
+    height: 470px;
+}
+
 
 /**BARRA LATERAL**/
 
