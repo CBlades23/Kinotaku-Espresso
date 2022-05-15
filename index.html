@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web Kinotaku Espresso, blog de café.">
+    <title>Kinotaku Espresso</title>
+
+    <!--PREFETCH-->
+    <link rel="stylesheet" href="nosotros.html" as="document">
+
+    <!--PRELOAD-->
+    <link rel="preload" href="img/index/header1.webp" as="image">
+    <link rel="preload" href="img/index/tipos.webp" as="image">
+    <link rel="preload" href="img/index/diseño2.webp" as="image">
+    <link rel="preload" href="img/index/preparacion3.webp" as="image">
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Kinotaku<span class="logo__bold">Espresso</span> </h1>
+                </a>
+
+                <button class="navegacion__toggle">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="4" y1="6" x2="20" y2="6" />
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                        <line x1="4" y1="18" x2="20" y2="18" />
+                    </svg>
+                </button>
+
+                <nav class="navegacion">
+                    <a href="cursos.html" class="navegacion__enlace"> Cursos </a>
+
+                    <a href="nosotros.html" class="navegacion__enlace"> Nosotros </a>
+
+                    <a href="contacto.html" class="navegacion__enlace"> Contacto </a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin"> Blog de café con consejos y cursos </h2>
+            <p class="no-margin"> Aprende de los expertos con las mejores recetas y consejos </p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3 class="division"> Tipos de granos </h4> <!-- TÍTULO DEL BLOG -->
+
+                <article class="entrada">
+                    <div class="entrada__imagen">
+                        <picture>
+                            <source loading="lazy" srcset="img/index/tipos.webp" type="image/webp">
+                            <img loading="lazy" src="img/index/tipos.jpg" alt="Preparación">
+                        </picture>
+                    </div>
+    
+                    <div class="entrada__contenido">
+                        <p>Se conocen 12 tipos de granos de café, de los cuales el Café Arábica y Café Robusta son <br> más cultivados por el Globo en tercer lugar Café Libérica, nosotros en esta sección del <br> blog hablaremos de los anteriormente mencionados (Arábica, Robusta y Libérica).</p>
+    
+                        <a href="consejo1.html" class="boton boton--primario"> Leer articulo completo </a>
+                    </div>
+                </article>
+
+                <h3 class="division"> Preparaciónde un café </h4> <!-- TÍTULO DEL BLOG -->
+
+                <article class="entrada">
+                    <div class="entrada__imagen">
+                        <picture>
+                            <source loading="lazy" srcset="img/index/preparacion3.webp" type="image/webp">
+                            <img loading="lazy"  src="img/index/preparacion3.jpg" alt="Preparación">
+                        </picture>
+                    </div>
+
+                    <div class="entrada__contenido">
+                        <p>Algunas tareas parecen sencillas, y preparar café, a simple vista, es una de ellas. Solamente <br> se deben de combinar dos ingredientes para preparar una taza de café, cualquier otro <br> ingrediente es opcional, pero agua caliente y el café molido es todo lo que se necesita. <br> Sin embargo, existen otras cosas las cuales se pueden hacer para mejorarlo.</p>
+
+                        <a href="consejo2.html" class="boton boton--primario"> Leer articulo completo </a>
+                    </div>
+                </article>
+
+                <h3 class="division"> El árte del café </h4> <!-- TÍTULO DEL BLOG -->
+
+                <article class="entrada">
+                    <div class="entrada__imagen">
+                        <picture>
+                            <source loading="lazy" srcset="img/index/diseño2.webp" type="image/webp">
+                            <img loading="lazy"  src="img/index/diseño2.jpg" alt="Preparación">
+                        </picture>
+                    </div>
+
+        
+                    <div class="entrada__contenido">
+                        <p>El arte del café con leche se refiere a los diseños creados en la superficie de expresos por <br> un barista o incluso por uno mismo. Hay dos formas de crear estos diseños, y generalmente <br> se utiliza uno de los métodos, e incluso a veces, una combinación de ambos. Lo estaremos hablando en esta sección.</p>
+        
+                        <a href="consejo3.html" class="boton boton--primario"> Leer articulo completo </a>
+                        </div>
+                    </article>
+        </main>
+
+        <aside class="sidebar"> <!--BARRA LATERAL PARA LOS CURSOS-->
+            <h3 class="titulo">Nuestros cursos y talleres</h3>
+
+                <ul class="cursos-barra no-padding">
+                    <li class="cursos division">
+                        <h4 class="no-margin"> Técnicas de extracción de café </h4>
+                        <p class="cursos-barra-label">Precio: 
+                            <span class="cursos-barra__info">Gratis</span> 
+                        </p>
+                        <p class="cursos-barra-label">Cupos: 
+                            <span class="cursos-barra__info">Sin cupos</span> 
+                        </p>
+                        <a href="cursos.html" class="boton boton--secundario"> Presiona para más información </a> <!--BOTÓN PARA LOS CURSOS-->
+                    </li>
+
+                    <div class="separacion"></div>
+
+                    <li class="cursos-barra division">
+                        <h4 class="no-margin"> 4 recetas de café para principiantes </h4>
+                        <p class="cursos-barra-label">Precio: 
+                            <span class="cursos-barra__info">Gratis</span>
+                        </p>
+                        <p class="cursos-barra-label">Cupos: 
+                            <span class="cursos-barra__info">Sin cupos</span>
+                        </p>
+                        <a href="cursos.html" class="boton boton--secundario"> Presiona para más información </a> <!--BOTÓN PARA LOS CURSOS-->
+                    </li>
+                </ul>
+        </aside>
+    </div>
+
+    <script defer src="javascript/index.js"></script>
+    <script src="javascript/modernizr.js"></script>
+
+</body>
+
+<footer class="footer">
+    <div class="contendor">
+        <div class="footer-barra">
+            <a class="footer-logo" href="index.html">
+                <h1 class="footer-logo__nombre no-margin centrar-texto">Kinotaku<span class="footer-logo__bold">Espresso</span> </h1>
+            </a>
+
+            <nav class="footer-navegacion centrar-texto">
+                <a href="cursos.html" class="footer-navegacion__enlace"> Cursos </a>
+
+                <a href="nosotros.html" class="footer-navegacion__enlace"> Nosotros </a>
+
+                <a href="contacto.html" class="footer-navegacion__enlace footer-navegacion__enlace__final"> Contacto </a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+</html>
